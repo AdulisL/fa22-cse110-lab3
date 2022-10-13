@@ -1,0 +1,9 @@
+Fill in the passphrases here.
+greenEggsAndHam
+YouFoundMe
+SvelteBeatsReact
+2020sucked
+coolcoolcool
+HTMLRocks
+JavaScriptRules
+ThisIsJS
