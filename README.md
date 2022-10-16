@@ -1,3 +1,3 @@
 # Lab 3 - Starter
-[Click Me](https://adulisl.github.io/fa22-cse110-lab3/) <br />
+[Click Me](index.html) <br />
 https://adulisl.github.io/fa22-cse110-lab3/
