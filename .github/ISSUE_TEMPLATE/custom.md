@@ -1,10 +1,10 @@
 ---
-name: Custom issue template
-about: Style meeting minutes
+name: Style meeting minutes
+about: Custom the index.html with CSS styling
 title: Styling
-labels: ''
+labels: 'CSS'
 assignees: AdulisL
 
 ---
 
-Custom the index.html with CSS styling
+
