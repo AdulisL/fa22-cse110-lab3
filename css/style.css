@@ -1,0 +1,107 @@
+
+*{
+    /* margin: 0;
+    padding: 0; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    margin: 10px;
+    border-right:1ch;
+    border-left:1ch;
+    font-family: Georgia;
+    background-image: url("/media/BlueBlack.gif");
+
+}
+.devOps{
+    font-style: italic;
+    font-size: large;
+    color:white;
+    display: inline-block;
+    margin: auto;
+}
+h1 {
+    font-weight: bold;
+    font-family: Georgia;
+    color:orangered;
+    text-align: center;
+}
+nav{
+    font-weight: bold;
+    display: flex;
+    margin-block: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    margin-right: 10px;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    font: bold;
+    display: inline-block;
+    position: relative;
+    margin-inline-start: 10px;
+}
+.nav-links ul li a{
+    color: whitesmoke;
+    text-decoration: wavy;
+    font-size: 13;
+}
+nav image{
+    size: 2px;
+}
+.agenda{
+    position:relative;
+    border: auto;
+    font-weight: bold;
+    font-family: Georgia;
+    color:chartreuse;
+}
+.attendance{
+    flex: none;
+}
+.head2{
+    position:relative;
+    border: auto;
+    font-weight: bold;
+    font-family: Georgia;
+    color:darkblue;
+}
+.content-wrapper{
+    padding: auto;
+}
+section {
+    flex: auto;
+    margin-left: 5ch;
+    margin-right: 5ch;
+    display: grid;
+    background-color:blanchedalmond;
+    border-style:grid;
+}
+p{
+    text-align: left;
+    margin-left:0%;
+    /* top, right, bottom, left */
+    margin: 0 10mm 5mm 3vmin;
+}
+hr {
+    border: 1ch solid ;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: blue;
+    size-adjust:initial*30;
+}
+
+#chicanery{
+    padding-left:40mm;
+}
+ .footHead{
+    color:chartreuse;
+ }
+ .meetDate{
+    color: aliceblue;
+ }
+

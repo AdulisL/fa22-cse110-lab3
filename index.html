@@ -3,51 +3,118 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Meeting minutes are notes recorded during a meeting so that anyone who missed the meeting can easily catch up, or if someone needs to reference back to a meeting that happened a little while ago they can jog their memory.">
-    <title>Team Tritons</title>
+    <meta name="description" content="Meeting minutes are notes recorded during
+    a meeting so that anyone who missed the meeting can easily catch up, or if
+    someone needs to reference back to a meeting that happened a little while
+    ago they can jog their memory.">
+    <title>Code Avengers</title>
+    <!-- CSS styling file -->
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com">
   </head>
   <body>
-    <a href="index.html">
-        <!-- <img src="media/CSE.jpeg" width="200"/> -->
-        <iframe src="media/giphy.gif" width="1500" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></p>
-    </a>
-        <h1 style="color:darkblue"><strong>Meetings &copy;</strong></h1>
-        <hr>
-    <img src="media/CSE.jpeg" width="20">
-    <a href="https://google.com" target="_blank">Google</a>
-    <a href="./media/CSE.jpeg"></a> <hr>
-    <a href="#media">Media</a> <hr>
-    <a href="#catagories">Catagories</a> <hr>
-    
-    <div class="meeting" style="background-color:lightblue">
-        <h2 style="color:rgb(19, 0, 128)", id="catagories">Catagories:</h2>
-        <ul style="background-color:blanchedalmond">
-            <a>
-                <p>Today's Agenda</p>
-                <p>Brainstorming</p>
-                <p>Documentation</p>
-                <p>Today's Agenda</p>
-                <p>Attendance Lists</p>
-                <p>Unresolved Issues</p>
-                <p>Future Plans</p>
-                <p>Unresolved Issues</p>
-                <p>Miscellaneous</p>
-                <a href="https://www.google.com/calendar/" target="_blank">Dates</a>
-            </a> <br>
+    <Main>
+        <header>
+            <h1>Code Avengers&copy;<br>Meeting</h1>
+            <nav>
+                <a href="index.html" >
+                    <!-- <img src="media/CSE.jpeg"> -->
+                </a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="">About</a></li>   
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <h2 class="agenda">Today's Agenda:
+            <p class="devOps">Dev. Operations updates<p> 
+        </h2>
+    </Main>
+    <hr>
+    <section>
+        <h2 class="head2">Catagories:</h2>
+        <ul >
+            <a href="https://www.google.com/calendar/"
+            target="_blank">Dates</a>
+            <br>
+            <input type="checkbox" value="submit" unchecked>New Agenda
+            <input type="checkbox" value="submit" unchecked>Attendance Lists
+            <input type="checkbox" value="submit" unchecked>Brainstorming
+            <input type="checkbox" value="submit" unchecked>Documentation
+            <input type="checkbox" value="submit" unchecked>Unresolved Issues
+            <input type="checkbox" value="submit" unchecked>Miscellaneous
+            <input type="checkbox" value="submit" unchecked>Future Plans
+            <br> <br>
+            
         </ul>
-        <h2 style="color:rgb(19, 0, 128)" id="media">Media:</h2>
-        <ul style="background-color:blanchedalmond">
+    </section>
+    <hr>
+    <section>
+        <h2 class="head2">Media:</h2>
+        <ul>
             <p>Videos:</p>
             <ul>
                 <video controls src="media/video.mov" width="200"></video>
+                <details>
+                    <summary>Video Transcript:</summary>
+                    Hi! my name is Meron Asfaw, I am a Computer Engineer in
+                    Qualcomm, working for the LOST team which stands for 
+                    Linux Open Source Team. What we do is, we code vet all the 
+                    open sources codes used by the Engineers to submit for an
+                    embedded systems, and we vet it before it gets submitted
+                    for patents or before it gets shipped for side of users.
+                    Alright! currently, I'm at UCSD learning cse110 for
+                    Software Engineering, I'm in group 36 and I'm also a leader in
+                    the group. Alright! nice to meet you.
+                </details>
             </ul>
              <br>
             <p>Audios:</p>
             <ul>
-                <audio controls src="media/the-expanse-ringtone.mp3">Audio</audio>
+                <audio controls src="media/audio.m4a">Audio</audio>
             </ul> <br>
         </ul>
-        <a href="#">Jump to Top</a>
-      </a> <a href="/fa22-cse110-lab3/index.html">Home Page</a> 
+    </section>
+    <hr>
+    <section>
+        <h2 class="head2">Attendance:</h2>
+        <ul>
+            <div class="attendance">
+                <li>
+                    <form action="" method="post">
+                        <select name="day" multiple>
+                            <option value="submit">Meron</option>
+                            <option value="submit">Luwam</option>
+                            <option value="submit">Asfaw</option>
+                            <option value="submit">Sebhatu</option>
+                          </select> <br>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <input type="submit" value="Submit">
+                      </form>
+                </li>
+            </div>
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <h3>Feedback:</h3>       
+        <label for="story">Please tell us how we can improve;</label>
+        <textarea id="story" name="story" rows="5">
+        We would love to hear your opinion...
+        </textarea>
+        <input type="submit" value="Submit">
+   </section>
+    <footer>
+        <h2 class="footHead"> Next Meeting Date:</h2>
+        <label class="meetDate"> When are you next available? </label>
+        <input type="date" id="meetDate">
+        <input type="submit"><br>
+        <a href="#" style="color:orangered">Jump to Top</a>
+    </footer>
   </body>
 </html>
