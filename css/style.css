@@ -12,6 +12,11 @@ body{
     background-image: url("/media/BlueBlack.gif");
 
 }
+main header{
+    display: inline-block;
+    margin-left: 20%;
+}
+
 .devOps{
     font-style: italic;
     font-size: large;
@@ -21,14 +26,14 @@ body{
 }
 h1 {
     font-weight: bold;
+    font-size: xxx-large;
     font-family: Georgia;
-    color:orangered;
+    color:cyan;
     text-align: center;
 }
 nav{
     font-weight: bold;
     display: flex;
-    margin-block: 10px;
     justify-content: space-between;
     align-items: center;
 }
@@ -41,12 +46,13 @@ nav{
     font: bold;
     display: inline-block;
     position: relative;
-    margin-inline-start: 10px;
+    margin-inline-start: 30px;
 }
 .nav-links ul li a{
     color: whitesmoke;
     text-decoration: wavy;
     font-size: 13;
+    margin-left: 100%;
 }
 nav image{
     size: 2px;
@@ -81,27 +87,23 @@ section {
 }
 p{
     text-align: left;
-    margin-left:0%;
-    /* top, right, bottom, left */
-    margin: 0 10mm 5mm 3vmin;
+    margin-left:0;
 }
 hr {
     border: 1ch solid ;
     border-radius: 10px;
+    color: orangered;
 }
 
 button:hover {
     color: blue;
-    size-adjust:initial*30;
+    size-adjust:initial*2;
 }
 
-#chicanery{
-    padding-left:40mm;
-}
  .footHead{
     color:chartreuse;
  }
  .meetDate{
-    color: aliceblue;
+    color: rgb(241, 255, 240);
  }
 
